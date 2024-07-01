@@ -8,6 +8,8 @@ A tool to forward messages from Gotify to Apprise! This allows notification exfi
 
 Create an [Apprise config file](https://github.com/caronc/apprise/wiki/config) for use with the tool. You can customize many aspects of the apprise config, including the assets.
 
+The file should be called `apprise.yaml` - its location can either be configured using the `APPRISE_CONFIG` environment variable, or using docker volume mounts.
+
 Example:
 
 ```yaml
